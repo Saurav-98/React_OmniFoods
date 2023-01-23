@@ -2,6 +2,12 @@ import React from 'react';
 import './Hero.css';
 
 import heroImg from '../../assets/hero.png';
+import customer1 from '../../assets/customers/customer-1.jpg';
+import customer2 from '../../assets/customers/customer-2.jpg';
+import customer3 from '../../assets/customers/customer-3.jpg';
+import customer4 from '../../assets/customers/customer-4.jpg';
+import customer5 from '../../assets/customers/customer-5.jpg';
+import customer6 from '../../assets/customers/customer-6.jpg';
 const Hero = () => {
   return (
     <section className="section-hero">
@@ -19,8 +25,21 @@ const Hero = () => {
             Start eating well
           </a>
           <a href="#" className="btn btn--outline">
-            Learn more &darr;
+            Learn more <span> &darr;</span>
           </a>
+          <div className="delivered-meals">
+            <div className="delivered-imgs">
+              <img src={customer1} alt="customer photo" />
+              <img src={customer2} alt="customer photo" />
+              <img src={customer3} alt="customer photo" />
+              <img src={customer4} alt="customer photo" />
+              <img src={customer5} alt="customer photo" />
+              <img src={customer6} alt="customer photo" />
+            </div>
+            <p className="delivered-text">
+              <span>250,000+</span> meals delivered last year!
+            </p>
+          </div>
         </div>
         <div className="hero-img-box">
           <img
