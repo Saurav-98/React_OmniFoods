@@ -126,3 +126,25 @@ Careers
 Recipe directory
 Help center
 Privacy & terms
+
+<!-- Responsive Web Design Principles -->
+
+1 - Fluid Layouts
+
+- - using % or (vh / vw) instead of pixels for element layut
+- - useing max-width instead of width
+
+2 - Responsive Units
+
+- - Use rem unitinstead of px for most lengths
+- - setting 1rem = 10px for easy calculations
+
+3 - Flexible Images
+
+- - Always using % for image dimensions, together with max-width property
+
+4 - Media Queries
+
+- - Change CSS styles on certain viewport widths ( breakpoints )
+
+### Desktop First Vs Mobile First Development Approach
