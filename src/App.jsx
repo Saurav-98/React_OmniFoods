@@ -4,6 +4,7 @@ import Header from './sections/Header/Header';
 import HowItWorks from './sections/HowItWorks/HowItWorks';
 import Featured from './sections/Featured/Featured';
 import Meals from './sections/Meals/Meals';
+import Testimonials from './sections/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Featured />
         <HowItWorks />
         <Meals />
+        <Testimonials />
       </main>
     </>
   );
