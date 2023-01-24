@@ -4,10 +4,11 @@ import steve from '../../assets/customers/steve.jpg';
 import hannah from '../../assets/customers/hannah.jpg';
 import ben from '../../assets/customers/ben.jpg';
 import './Testimonials.css';
+import Gallery from '../../components/Gallery/Gallery';
 
 const Testimonials = () => {
   return (
-    <section className="section-testimonials grid grid--2--cols">
+    <section className="section-testimonials ">
       <div className="testimonials-container">
         <span className="subheading">Testimonials</span>
         <h2 className="heading-secondary">
@@ -65,7 +66,7 @@ const Testimonials = () => {
           </figure>
         </div>
       </div>
-      <div className="gallery">Gallery</div>
+      <Gallery />
     </section>
   );
 };
