@@ -5,7 +5,7 @@ import meal2 from '../../assets/meals/meal-2.jpg';
 
 import { GiKnifeFork } from 'react-icons/gi';
 import { MdOutlineLocalFireDepartment } from 'react-icons/md';
-import { AiOutlineStar } from 'react-icons/ai';
+import { AiOutlineStar, AiOutlineCheck } from 'react-icons/ai';
 
 const Meals = () => {
   return (
@@ -73,7 +73,53 @@ const Meals = () => {
           </div>
         </div>
 
-        <div className="list">List of Diets</div>
+        <div className="diets">
+          <h3 className="heading-tertiary"> Works with any diet: </h3>
+          <ul className="list">
+            <li className="list-item">
+              {' '}
+              <AiOutlineCheck className="list-icon" /> Vegetarian{' '}
+            </li>
+            <li className="list-item">
+              {' '}
+              <AiOutlineCheck className="list-icon" /> Vegan{' '}
+            </li>
+            <li className="list-item">
+              {' '}
+              <AiOutlineCheck className="list-icon" /> Pescatarian{' '}
+            </li>
+            <li className="list-item">
+              {' '}
+              <AiOutlineCheck className="list-icon" /> Gluten-free{' '}
+            </li>
+            <li className="list-item">
+              {' '}
+              <AiOutlineCheck className="list-icon" /> Lactose-free{' '}
+            </li>
+            <li className="list-item">
+              {' '}
+              <AiOutlineCheck className="list-icon" /> Keto{' '}
+            </li>
+            <li className="list-item">
+              {' '}
+              <AiOutlineCheck className="list-icon" /> Paleo{' '}
+            </li>
+            <li className="list-item">
+              {' '}
+              <AiOutlineCheck className="list-icon" /> Low FODMAP{' '}
+            </li>
+            <li className="list-item">
+              {' '}
+              <AiOutlineCheck className="list-icon" /> Kid-friendly{' '}
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="container all-recepies">
+        <a href="#" className="link">
+          See all recipes &rarr;
+        </a>
       </div>
     </section>
   );
