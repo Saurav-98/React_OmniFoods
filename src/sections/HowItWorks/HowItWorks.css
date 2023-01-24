@@ -1,6 +1,50 @@
 .how {
   padding: 9.6rem 0;
 }
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ccc;
+  margin-bottom: 1.2rem;
+}
+.step-desc {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.step-text-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.step-img-box::after,
+.step-img-box::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.step-img-box::before {
+  width: 80%;
+  aspect-ratio: 1;
+  z-index: -2;
+  background-color: #fdf2e9;
+}
+.step-img-box::after {
+  width: 60%;
+  aspect-ratio: 1;
+  z-index: -1;
+  background-color: #f3bf91;
+}
 .step-img {
-  width: 50%;
+  width: 40%;
 }

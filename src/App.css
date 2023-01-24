@@ -66,7 +66,8 @@
 
 /* Heading Styles */
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
   color: #333;
 
@@ -83,6 +84,11 @@
   margin-bottom: 9.6rem;
 }
 
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
 .subheading {
   display: block;
   font-size: 1.6rem;

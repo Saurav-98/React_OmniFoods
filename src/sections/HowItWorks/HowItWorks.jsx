@@ -56,7 +56,7 @@ const HowItWorks = () => (
       </div>
       {/* Step 03 */}
       <div className="step-text-box">
-        <p className="step-number">01</p>
+        <p className="step-number">03</p>
         <h3 className="heading-tertiary">Receive meals at convenient time</h3>
         <p className="step-desc">
           Best chefs in town will cook your selected meal every day, and we will
