@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiOutlineCheck } from 'react-icons/ai';
 import { RxCross2 } from 'react-icons/rx';
+import Feature from '../../components/Feature/Feature';
 import './Pricing.css';
 
 const Pricing = () => {
@@ -87,13 +88,16 @@ const Pricing = () => {
         </div>
        
       </div>
+      <div className="container">
+        <aside className="plan-detail">
+          Prices include all applicable taxes. You can cancel at any time. Both plans include the following
+        </aside>
+      </div>
 
 
-      <div className="container grid grid--4--cols">
-        <div className="feature">Feature 1</div>
-        <div className="feature">Feature 2</div>
-        <div className="feature">Feature 3</div>
-        <div className="feature">Feature 4</div>
+      <div className="container grid grid--4--cols featured-grid">
+        <Feature />
+        
       </div>
     </section>
   );
