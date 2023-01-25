@@ -1,3 +1,38 @@
+.pricing {
+  padding: 9.6rem 0;
+}
+
+.pricing-plan {
+  background-color: #fdf2e9;
+  border-radius:11px;
+  padding:4.8rem;
+  width:75%;
+ 
+}
+.pricing-plan:first-child{
+  justify-self: flex-end;
+  background-color: transparent;
+  border: 5px solid #fdf2e9;
+  padding:4.3rem;
+}
+.pricing-plan:last-child {
+ position: relative;
+ overflow: hidden;
+}
+.pricing-plan:last-child::after{
+  content:'Best value';
+  position: absolute;
+  top:6%;
+  right:-18%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  background-color:#ffd43b ;
+  padding:1rem 8rem;
+  color:#333;
+
+  transform: rotate(45deg);
+}
 .pricing-plan header {
   text-align: center;
   margin-bottom: 4.8rem;

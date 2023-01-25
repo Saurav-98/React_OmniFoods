@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlineCheck } from 'react-icons/ai';
+import { RxCross2 } from 'react-icons/rx';
 import './Pricing.css';
 
 const Pricing = () => {
@@ -30,12 +31,17 @@ const Pricing = () => {
             <li className="list-item">
               {' '}
               <AiOutlineCheck className="list-icon" />{' '}
-              <span>Order times are between 11am and 9pm</span>
+              <span>Order from 11am to 9pm</span>
             </li>
             <li className="list-item">
               {' '}
               <AiOutlineCheck className="list-icon" />{' '}
               <span>Delivery is free</span>
+            </li>
+            <li className="list-item">
+              {' '}
+              <RxCross2 className="list-icon" />{' '}
+              
             </li>
           </ul>
           <div className="plan-signup">
@@ -56,11 +62,11 @@ const Pricing = () => {
             <li className="list-item">
               {' '}
               <AiOutlineCheck className="list-icon" />{' '}
-              <span>2 meal per day</span>
+              <span><strong>2</strong> meal per day</span>
             </li>
             <li className="list-item">
               {' '}
-              <AiOutlineCheck className="list-icon" /> <span>Order 24/7</span>
+              <AiOutlineCheck className="list-icon" /> <span>Order <strong>24/7</strong></span>
             </li>
             <li className="list-item">
               {' '}
@@ -79,7 +85,15 @@ const Pricing = () => {
             </a>
           </div>
         </div>
-        <div className="pricing-plan"></div>
+       
+      </div>
+
+
+      <div className="container grid grid--4--cols">
+        <div className="feature">Feature 1</div>
+        <div className="feature">Feature 2</div>
+        <div className="feature">Feature 3</div>
+        <div className="feature">Feature 4</div>
       </div>
     </section>
   );
