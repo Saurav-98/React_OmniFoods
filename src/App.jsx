@@ -6,6 +6,7 @@ import Featured from './sections/Featured/Featured';
 import Meals from './sections/Meals/Meals';
 import Testimonials from './sections/Testimonials/Testimonials';
 import Pricing from './sections/Pricing/Pricing';
+import CTA from './sections/CTA/CTA';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Meals />
         <Testimonials />
         <Pricing />
+        <CTA />
       </main>
     </>
   );
