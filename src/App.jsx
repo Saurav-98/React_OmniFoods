@@ -7,6 +7,7 @@ import Meals from './sections/Meals/Meals';
 import Testimonials from './sections/Testimonials/Testimonials';
 import Pricing from './sections/Pricing/Pricing';
 import CTA from './sections/CTA/CTA';
+import Footer from './sections/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Pricing />
         <CTA />
       </main>
+      <Footer />
     </>
   );
 }
