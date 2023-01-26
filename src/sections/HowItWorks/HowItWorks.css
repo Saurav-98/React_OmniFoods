@@ -48,3 +48,15 @@
 .step-img {
   width: 40%;
 }
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 960px (Tablets)
+/***************************************/
+@media screen and (max-width:60em) {
+  .step-number {
+    font-size: 7.2rem;
+    
+  }
+
+}

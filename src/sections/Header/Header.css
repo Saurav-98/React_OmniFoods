@@ -10,3 +10,13 @@
 .logo {
   height: 2rem;
 }
+
+  /* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 1200px (Landscape Tablets)
+/***************************************/
+@media screen and (max-width:75em) {
+.header {
+  padding: 0 3.2rem;
+}
+}

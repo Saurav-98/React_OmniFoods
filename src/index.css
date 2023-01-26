@@ -49,3 +49,25 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+/* rem and em donotdepend on html font size in media queries , 1rem = 1em = 16px */
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 1200px (Landscape Tablets)
+/***************************************/
+@media screen and (max-width:75em) {
+    html {
+      font-size: 56.25% ;
+    }
+}
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 960px (Tablets)
+/***************************************/
+@media screen and (max-width:60em) {
+  html{
+    font-size: 50%;
+  }
+}

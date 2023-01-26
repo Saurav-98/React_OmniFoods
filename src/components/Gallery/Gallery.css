@@ -16,3 +16,25 @@
 .gallery-item img:hover {
   transform: scale(1.2);
 }
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 1356px (Smaller Desktop)
+/***************************************/
+
+@media screen and (max-width: 85em) { 
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  }
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 960px (Tablets)
+/***************************************/
+@media screen and (max-width:60em) {
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+}

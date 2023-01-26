@@ -28,3 +28,25 @@
   font-size: 1.6rem;
   color: #6f6f6f;
 }
+
+
+  /* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 1200px (Landscape Tablets)
+/***************************************/
+@media screen and (max-width:75em) {
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 960px (Tablets)
+/***************************************/
+@media screen and (max-width:60em) {
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+}

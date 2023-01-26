@@ -62,3 +62,61 @@
 .delivered-text span:hover {
   color: #b8651b;
 }
+
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 1356px (Smaller Desktop)
+/***************************************/
+
+
+@media screen and (max-width: 85em) {
+  .hero{
+    max-width: 120rem;
+  }
+}
+
+  /* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 1200px (Landscape Tablets)
+/***************************************/
+@media screen and (max-width:75em) {
+  .hero-container {    
+    gap: 4.8rem;    
+  }
+}
+
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 960px (Tablets)
+/***************************************/
+@media screen and (max-width:60em) {
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 4.8rem;
+  }
+  .hero-container  {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap:6.4rem;
+ 
+  }
+  .hero-img {
+    width: 60%;
+  }
+}
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 960px (Tablets)
+/***************************************/
+@media screen and (max-width:60em) {
+  .hero-text-box {
+    text-align: center;
+  }
+  .hero-img-box {
+    text-align: center;
+  }
+
+}

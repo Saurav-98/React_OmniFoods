@@ -75,3 +75,22 @@
 .featured-grid {
   gap:6.4rem
 }
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 960px (Tablets)
+/***************************************/
+@media screen and (max-width:60em) {
+  .pricing-plan {
+    padding:3.6rem;
+  }
+  .pricing-plan:first-child{
+    border: 3px solid #fdf2e9;
+    padding:3.3rem;
+  }
+  .pricing-plan:last-child::after{
+    top:7%;
+    right:-22%;
+  }
+
+}

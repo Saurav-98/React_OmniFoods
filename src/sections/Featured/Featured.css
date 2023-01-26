@@ -21,3 +21,14 @@
   filter: brightness(0);
   opacity: 50%;
 }
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 960px (Tablets)
+/***************************************/
+@media screen and (max-width:60em) {
+  .logo-container img {
+    height: 2.4rem;
+  }
+
+}

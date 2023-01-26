@@ -84,3 +84,14 @@
   color: #b8651b;
   border-color: transparent;
 }
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 960px (Tablets)
+/***************************************/
+@media screen and (max-width:60em) {
+  .meal-content {
+    padding: 1.2rem 2.4rem 3.2rem;
+  }
+
+}
