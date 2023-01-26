@@ -95,3 +95,15 @@
   }
 
 }
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 768px (Mobiles)
+/***************************************/
+@media screen and (max-width:48em) {
+ .diets {
+  grid-column: 1/-1;
+  justify-self: center;
+ }
+
+}

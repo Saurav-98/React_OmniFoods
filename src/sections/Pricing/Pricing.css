@@ -83,6 +83,7 @@
 @media screen and (max-width:60em) {
   .pricing-plan {
     padding:3.6rem;
+  
   }
   .pricing-plan:first-child{
     border: 3px solid #fdf2e9;
@@ -93,4 +94,22 @@
     right:-22%;
   }
 
+}
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 768px (Mobiles)
+/***************************************/
+@media screen and (max-width:50em) {
+  .pricing-plan {
+   width: 100%;
+  
+  }
+  .pricing-plan:last-child::after{
+    top:6%;
+    right:-18%;
+  }
+  .featured-grid {
+    gap:3.2rem
+  }
 }

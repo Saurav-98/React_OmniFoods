@@ -162,3 +162,33 @@ strong {
 }
 
 
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 768px (Mobiles)
+/***************************************/
+@media screen and (max-width:48em) {
+  .grid--3--cols,
+  .grid--4--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .heading-secondary {    
+    margin-bottom: 4.8rem;
+  }
+}
+
+/* ==================== Responsive Design =========================== */
+/* **************************************/
+/* BELOW 576px (Mobiles)
+/***************************************/
+@media screen and (max-width:36em) {
+
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid--2--cols,
+  .grid--3--cols,
+  .grid--4--cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
